@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v2x3BSfp3sM=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Github\\IRM\\zetes\\UploadCSVFile\\CSVFile\\CSVFile.Domain\\CSVFile.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mninawa.Mabodla\\.nuget\\packages\\intent.roslynweaver.attributes\\2.1.4\\intent.roslynweaver.attributes.2.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

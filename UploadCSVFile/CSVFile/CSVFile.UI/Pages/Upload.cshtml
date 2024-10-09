@@ -1,0 +1,41 @@
+﻿@page
+@model CSVFile.UI.Pages.UploadModel
+@{
+  ViewData["Title"] = "Upload CSV";
+}
+
+<h2>CSV File</h2>
+
+<form method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="csvFile">Upload CSV File</label>
+    <input type="file" class="form-control" id="csvFile" name="csvFile" />
+    <span asp-validation-for="CsvFile" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary mt-2 mb-2">Upload</button>
+</form>
+
+<!-- Display validation errors -->
+@if (ViewData.ModelState.Values.Any(v => v.Errors.Count > 0))
+{
+  <div class="alert alert-danger validation-summary-errors mb-2">
+    <ul>
+      @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+      {
+        <li>@error.ErrorMessage</li>
+      }
+    </ul>
+  </div>
+}
+
+<!-- Display the HTML table if available -->
+@if (Model.HtmlTable != null)
+{
+  <div>
+    @Html.Raw(Model.HtmlTable)
+  </div>
+}
+
+@section Scripts {
+  <partial name="_ValidationScriptsPartial" />
+}

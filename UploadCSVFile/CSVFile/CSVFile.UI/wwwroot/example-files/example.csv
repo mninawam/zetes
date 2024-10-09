@@ -1,0 +1,4 @@
+﻿Name,Type,Search,Library filter,Visible
+Item1,Text,yes,yes,Yes
+Item2,Text,Yes,Yes,yes
+Item3,Date,no,no,yes

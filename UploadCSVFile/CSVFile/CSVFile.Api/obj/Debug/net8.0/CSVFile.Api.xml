@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSVFile.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CSVFile.Api.Controllers.CSVFilesController.CreateCSVFile(CSVFile.Application.CSVFiles.CreateCSVFile.CreateCSVFileCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
+    </members>
+</doc>

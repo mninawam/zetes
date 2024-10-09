@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CSVFile.Domain/1.0.0": {
+        "dependencies": {
+          "Intent.RoslynWeaver.Attributes": "2.1.4"
+        },
+        "runtime": {
+          "CSVFile.Domain.dll": {}
+        }
+      },
+      "Intent.RoslynWeaver.Attributes/2.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Intent.RoslynWeaver.Attributes.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSVFile.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Intent.RoslynWeaver.Attributes/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vo8FpHYQr7iGgin7jcx9zg+13DUkPDgcb6jh8Eic7Yp2ac/ivLrnr/b0Uo8/7aPUH4+OSpcAPFJ4CyG1LtJhjw==",
+      "path": "intent.roslynweaver.attributes/2.1.4",
+      "hashPath": "intent.roslynweaver.attributes.2.1.4.nupkg.sha512"
+    }
+  }
+}

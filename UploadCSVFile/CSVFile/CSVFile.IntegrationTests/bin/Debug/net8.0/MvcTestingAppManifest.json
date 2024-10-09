@@ -1,0 +1,6 @@
+{
+  "CSVFile.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Mninawa.Mabodla\\source\\repos\\UploadCSVFile\\CSVFile\\CSVFile.Api",
+  "CSVFile.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Mninawa.Mabodla\\source\\repos\\UploadCSVFile\\CSVFile\\CSVFile.Application",
+  "CSVFile.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Mninawa.Mabodla\\source\\repos\\UploadCSVFile\\CSVFile\\CSVFile.Domain",
+  "CSVFile.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Mninawa.Mabodla\\source\\repos\\UploadCSVFile\\CSVFile\\CSVFile.Infrastructure"
+}

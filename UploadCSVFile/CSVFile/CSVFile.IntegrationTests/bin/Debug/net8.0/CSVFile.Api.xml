@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSVFile.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CSVFile.Api.Controllers.CSVFilesController.CreateCSVFile(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+        </member>
+        <member name="M:CSVFile.Api.Controllers.CSVFilesController.GetCSVFileById(System.String,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified CSVFileDto.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">No CSVFileDto could be found with the provided parameters.</response>
+        </member>
+        <member name="M:CSVFile.Api.Controllers.CSVFilesController.GetCSVFiles(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified List&lt;FieldDto&gt;.</response>
+        </member>
+        <member name="T:CSVFile.Api.Controllers.ResponseTypes.JsonResponse`1">
+            <summary>
+            Implicit wrapping of types that serialize to non-complex values.
+            </summary>
+            <typeparam name="T">Types such as string, Guid, int, long, etc.</typeparam>
+        </member>
+    </members>
+</doc>
